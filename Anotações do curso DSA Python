@@ -1,7 +1,7 @@
 link do curso : https://www.datascienceacademy.com.br/program/formacao-cientista-de-dados-4?gad_source=1&gad_campaignid=11541238055&gbraid=0AAAAADSHYKTCr1fDS8Qj3pMBXkXDC2aci&gclid=EAIaIQobChMI8K3ew7G2lQMVkFRIAB3wYgq5EAAYASAAEgIWXvD_BwE
 
-ANOTAÇÕES
-
+## ANOTAÇÕES
+---
 o que é linguagem de programação: são instruções que passamos para o computador / ele executa a tarefa e devolve o resultado 
 como esse código é executado na máquina: depende da linguagem, se é 
 interpretada: eu preciso de um software interpretador
@@ -12,9 +12,9 @@ no caso vou usar: https://www.python.org/
 para Windows / MacOS / Linux
 Permite usar interpretador padrão
 Pra que serve? Permite, você criar o scrip / executar o comando o interpretador / ele executa, processa o script / se não houver nenhum erro / gera o resultado que foi definido no código
-
+---
 Ferramentas usadas
-
+---
 ANACONDA PYTHON: é uma distribuição do interpretador oficial mais pacotes e ferramentas complementares, gratuito
 Pode ser usado: na nuvem ou download na máquina para Windows / MacOS / Linux
 Link  para Windows:
