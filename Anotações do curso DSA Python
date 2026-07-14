@@ -1,0 +1,130 @@
+link do curso : https://www.datascienceacademy.com.br/program/formacao-cientista-de-dados-4?gad_source=1&gad_campaignid=11541238055&gbraid=0AAAAADSHYKTCr1fDS8Qj3pMBXkXDC2aci&gclid=EAIaIQobChMI8K3ew7G2lQMVkFRIAB3wYgq5EAAYASAAEgIWXvD_BwE
+
+ANOTAÇÕES
+
+o que é linguagem de programação: são instruções que passamos para o computador / ele executa a tarefa e devolve o resultado 
+como esse código é executado na máquina: depende da linguagem, se é 
+interpretada: eu preciso de um software interpretador
+compilada: eu preciso de um software compilador
+Python é uma linguagem interpretada, então é necessário um interpretador de linguagem para executar o código na máquina.
+no caso vou usar: https://www.python.org/
+é gratuito
+para Windows / MacOS / Linux
+Permite usar interpretador padrão
+Pra que serve? Permite, você criar o scrip / executar o comando o interpretador / ele executa, processa o script / se não houver nenhum erro / gera o resultado que foi definido no código
+
+Ferramentas usadas
+
+ANACONDA PYTHON: é uma distribuição do interpretador oficial mais pacotes e ferramentas complementares, gratuito
+Pode ser usado: na nuvem ou download na máquina para Windows / MacOS / Linux
+Link  para Windows:
+https://repo.anaconda.com/archive/Anaconda3-2025.06-0-Windows-x86_64.exe
+
+Sublime Text: Editor de texto / com instalação padrão / não é baseada em I.A
+Link: https://www.sublimetext.com/download_thanks?target=win-x64
+
+Eu vou usar: VsCode
+
+Teste Anaconda 
+Como executar cmd: Windows + R ou (Botão direito do mouse no Menu Iniciar / Executar)
+Como abrir o Anaconda: cmd => cd C:\DSA\FundamentosPython\Cap02 => jupyter notebook 
+
+Para zerar: 
+
+
+
+
+
+ESTUDO DE CASO 1 - Assistente de IA para programação em Python 
+
+Funcionamento: 
+
+   Arquivo com os Pacote Python - as versões e as respectivas dependente
+
+O que é Streamlit =>  é um Framework Python para construir aplicações Web
+Link: https://streamlit.io/
+ gratuito 
+ajuda a criar aplicações de dados
+transforma solução de dados ou de IA em uma solução para ser usada
+
+Obs: aqui você envia o seu texto “pergunta” que é o Prompt / ele envia para o LLM que processa e devolve o resultado.  
+
+Prompt - é o texto de entrada  “pergunta”.
+
+LLM - é um tipo de modelo I.A exclusivamente para geração de texto
+Serve: Recebe uma entrada com base no que ele aprendeu e vai prevendo a próxima palavra e entrega o resultado.
+
+o que é o Groq => https://groq.com/
+O Groq não cria os modelos de inteligência artificial do zero; em vez disso, ele hospeda e roda modelos de linguagem de código aberto já existentes (como LLaMA e Mixtral) com um desempenho ultrarrápido
+
+from groq import Groq 
+groq = pacote 
+Groq = nome da função
+
+API KEYS =>  https://console.groq.com/keys
+API Keys: Aqui eu crio meu API 
+Serve:  para chamar o meu LLM  
+Playground: Aqui eu vou buscar a minha LLM 
+Será usado essa versão: openai/gpt-oss-20b
+Esse é um Modelo do Chat GPT / 20B de 20 bilhões de parâmetros 
+Para Executar uma PP - Goq “crie uma conta ”/ Crie uma API KEY / Inserir a API 
+
+Pypi => pypi.org
+pegar o pacote streamlit 1.49.1
+link:  https://streamlit.io/
+
+o que é um chat gbt: é uma interface web para LLM - que por trás aciona um modelo de linguagem que faz uma previsão probabilística da próxima palavra
+I.A - não tem inteligência, só previsão probabilística
+vibe coding = escreve o front em linguagem natural para I.A e ela te devolve o código
+programação assistida por I.A = usa uma ferramenta para completar o código / é a utilização de inteligência artificial (como LLMs e agentes autônomos) para auxiliar no desenvolvimento de software 
+
+Ambiente de Trabalho 
+
+
+Como iniciar o Jupyter Notebook: 
+windows + R / cmd
+cd C:\DSA\FundamentosPython\Cap04
+jupyter notebook
+New / Python 3 = para um novo arquivo
+ou Clicar na pasta que quer vê 
+
+Anotação para código:
+Code = código Python
+Markdown = comentário
+###  = para criar uma estrutura hierárquica 
+** negrito ** = negrito  
+def = definição 
+f = eu uso para concatenar string com valor de variável 
+.2f = para formatar a saída com duas casas decimais 
+= esse sinal é usado para atribuição 
+== é o operador de igual 
+
+
+Pseudocódigo: é descrição de um algoritmo usando uma linguagem
+
+Linguagem dinamicamente Tipada: não é necessário declarar as variáveis porque elas já são tipadas
+
+Dados Primitivos: são os mais básico, não consegue subdividir mas pode usar um tipo primitivo para criar tipos compostos que são as estruturas de dados: listas / tuplas
+Eu uso função Type = type() serve para descobrir ou identificar o tipo de dado de um objeto ou variável em tempo de execução 
+
+Operadores Aritméticos: 
+a = 10 : se eu atribuir a minha variável A com o valor 10 automaticamente ela o interpretador detecta o tipo, neste caso Inteira
+
+
+
+
+Observações: não será válido, pois na matemática não tem divisor de zero 
+‘8’ + ‘s’ duas strings não faz soma  = ‘8s ‘
+
+Operadores Lógicos
+and = os dois operadores tem que ser verdadeiros True, se um operador é falso ele sempre vai ser falso
+or = se eu quiser testar se apenas um valor é verdadeiro True, para que seja verdadeiro 
+and not = Aqui ele inverte o valor de um boolean 
+
+
+
+
+
+
+
+
